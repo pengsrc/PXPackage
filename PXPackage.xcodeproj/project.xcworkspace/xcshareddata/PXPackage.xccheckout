@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>554A02EF-5182-49C2-B863-EC20CE721BBE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PXPackage</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C460741587825A28DD57FC3D7292F6FCB0CB23BB</key>
+		<string>github.com:prettyxw/PXPackage.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PXPackage.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C460741587825A28DD57FC3D7292F6FCB0CB23BB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:prettyxw/PXPackage.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C460741587825A28DD57FC3D7292F6FCB0CB23BB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C460741587825A28DD57FC3D7292F6FCB0CB23BB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PXPackage</string>
+		</dict>
+	</array>
+</dict>
+</plist>

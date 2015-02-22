@@ -1,0 +1,37 @@
+/* 
+  Values.strings
+  PXPackage
+
+  Created by PJW on 5-6-14.
+  Copyright (c) 2014 PrettyX. All rights reserved.
+*/
+
+/* Strings */
+
+"AppName" = "PXPackage";
+"DonateUrl" = "http://prettyx.org/donate";
+"PrettyXUrl" = "http://prettyx.org";
+"EmailAddress" = "pengsrc@icloud.com";
+
+"Kuaidi100Url" = "http://www.kuaidi100.com";
+"Hao123KuaidiUrl" = "http://www.hao123.com/haoserver/kuaidi.htm";
+"AichakuaidiUrl" = "http://www.ickd.cn";
+"KuaidizhushouUrl" = "http://www.kuaidihelp.com";
+
+"Number" = "单号";
+"Mark" = "标记";
+"Comment" = "标记";
+"Moment" = "时刻";
+"Action" = "信息";
+
+"DoYouRellayWantToDelete" = "真的要删除 ?";
+"InternetConnectionLost" = "无法访问网络 !";
+"CheckYourInternetConnection" = "请检查网络链接.";
+"OK" = "确定";
+"Cancel" = "取消";
+
+"Days" = "天";
+"Hours" = "小时";
+"Minutes" = "分钟";
+
+"Checked" = "已签收";

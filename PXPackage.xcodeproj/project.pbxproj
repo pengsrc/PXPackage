@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		767875521921C653009DDDB8 /* PXSideBarButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 767875511921C653009DDDB8 /* PXSideBarButtonCell.m */; };
+		767875581921EB5F009DDDB8 /* PXLightVerticalLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 767875571921EB5F009DDDB8 /* PXLightVerticalLine.m */; };
+		7678755E1921F179009DDDB8 /* PXAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678755D1921F179009DDDB8 /* PXAppController.m */; };
+		7678756419221A4E009DDDB8 /* PXViewManageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678756219221A4E009DDDB8 /* PXViewManageController.m */; };
+		7678756B19221BD5009DDDB8 /* PXContentTrackPackageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678756A19221BD5009DDDB8 /* PXContentTrackPackageViewController.m */; };
+		76787573192220CB009DDDB8 /* PXContentMailServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76787572192220CB009DDDB8 /* PXContentMailServiceViewController.m */; };
+		76787578192221B8009DDDB8 /* PXContentServiceLinksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76787577192221B8009DDDB8 /* PXContentServiceLinksViewController.m */; };
+		7678757E19222227009DDDB8 /* PXContentAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678757C19222227009DDDB8 /* PXContentAboutViewController.m */; };
+		7678758C1922673F009DDDB8 /* PXLightHorizontalLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678758B1922673F009DDDB8 /* PXLightHorizontalLine.m */; };
+		7678759B19231A63009DDDB8 /* PXContentTrackPackageList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7678759A19231A63009DDDB8 /* PXContentTrackPackageList.m */; };
+		767B2F7619192D4D00170435 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767B2F7519192D4D00170435 /* Cocoa.framework */; };
+		767B2F8019192D4D00170435 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 767B2F7E19192D4D00170435 /* InfoPlist.strings */; };
+		767B2F8219192D4D00170435 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 767B2F8119192D4D00170435 /* main.m */; };
+		767B2F8619192D4D00170435 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 767B2F8419192D4D00170435 /* Credits.rtf */; };
+		767B2F8919192D4D00170435 /* PXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 767B2F8819192D4D00170435 /* PXAppDelegate.m */; };
+		767B2F8C19192D4D00170435 /* PXMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 767B2F8A19192D4D00170435 /* PXMainWindow.xib */; };
+		767B2F8E19192D4D00170435 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767B2F8D19192D4D00170435 /* Images.xcassets */; };
+		767B2F9519192D4D00170435 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767B2F9419192D4D00170435 /* XCTest.framework */; };
+		767B2F9619192D4D00170435 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767B2F7519192D4D00170435 /* Cocoa.framework */; };
+		767B2F9E19192D4D00170435 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 767B2F9C19192D4D00170435 /* InfoPlist.strings */; };
+		767B2FA019192D4D00170435 /* PXPackageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 767B2F9F19192D4D00170435 /* PXPackageTests.m */; };
+		767B2FAC19192EA000170435 /* PXPackageMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = 767B2FAB19192EA000170435 /* PXPackageMeta.m */; };
+		767B2FB519192F1B00170435 /* Values.strings in Resources */ = {isa = PBXBuildFile; fileRef = 767B2FB719192F1B00170435 /* Values.strings */; };
+		767B2FBB1919342C00170435 /* PXDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 767B2FBA1919342C00170435 /* PXDataProvider.m */; };
+		767B2FC11919C8AD00170435 /* company.json in Resources */ = {isa = PBXBuildFile; fileRef = 767B2FC01919C8AD00170435 /* company.json */; };
+		767B2FC61919CC5300170435 /* PXDataCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 767B2FC51919CC5300170435 /* PXDataCore.m */; };
+		767CFDD019244129002383F8 /* PXContentInputCompanyNameTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 767CFDCF19244129002383F8 /* PXContentInputCompanyNameTextField.m */; };
+		767CFDD31924C968002383F8 /* PXContentTrackPackageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 767CFDD21924C968002383F8 /* PXContentTrackPackageContent.m */; };
+		767CFDD61924DFBA002383F8 /* PXMiddleAlignedTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 767CFDD51924DFBA002383F8 /* PXMiddleAlignedTextFieldCell.m */; };
+		767CFDD91924EDB3002383F8 /* PXContentMailServiceList.m in Sources */ = {isa = PBXBuildFile; fileRef = 767CFDD81924EDB3002383F8 /* PXContentMailServiceList.m */; };
+		768074AA191A66A200C249AE /* PXMainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 768074A9191A66A200C249AE /* PXMainWindow.m */; };
+		7680A86E1925D71B0099CE66 /* PXContentTrackPackageAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7680A8701925D71B0099CE66 /* PXContentTrackPackageAddView.xib */; };
+		7680A8781925D8D20099CE66 /* PXContentMailServiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7680A87A1925D8D20099CE66 /* PXContentMailServiceView.xib */; };
+		7680A87D1925D8FC0099CE66 /* PXContentTrackPackageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7680A87F1925D8FC0099CE66 /* PXContentTrackPackageView.xib */; };
+		7680A8871925DC500099CE66 /* PXContentServiceLinksView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7680A8891925DC500099CE66 /* PXContentServiceLinksView.xib */; };
+		7680A88D1925DCA80099CE66 /* PXContentAboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7680A88F1925DCA80099CE66 /* PXContentAboutView.xib */; };
+		76FC23001920A0B500209D94 /* PXSideBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FC22FF1920A0B500209D94 /* PXSideBarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		767B2F9719192D4D00170435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 767B2F6A19192D4C00170435 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 767B2F7119192D4D00170435;
+			remoteInfo = PXPackage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		761710B91920DB9B0083C08A /* PXValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXValues.h; sourceTree = "<group>"; };
+		767875501921C653009DDDB8 /* PXSideBarButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXSideBarButtonCell.h; sourceTree = "<group>"; };
+		767875511921C653009DDDB8 /* PXSideBarButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXSideBarButtonCell.m; sourceTree = "<group>"; };
+		767875561921EB5F009DDDB8 /* PXLightVerticalLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXLightVerticalLine.h; sourceTree = "<group>"; };
+		767875571921EB5F009DDDB8 /* PXLightVerticalLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXLightVerticalLine.m; sourceTree = "<group>"; };
+		7678755C1921F179009DDDB8 /* PXAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXAppController.h; sourceTree = "<group>"; };
+		7678755D1921F179009DDDB8 /* PXAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXAppController.m; sourceTree = "<group>"; };
+		7678756119221A4E009DDDB8 /* PXViewManageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXViewManageController.h; sourceTree = "<group>"; };
+		7678756219221A4E009DDDB8 /* PXViewManageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXViewManageController.m; sourceTree = "<group>"; };
+		7678756919221BD5009DDDB8 /* PXContentTrackPackageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXContentTrackPackageViewController.h; sourceTree = "<group>"; };
+		7678756A19221BD5009DDDB8 /* PXContentTrackPackageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXContentTrackPackageViewController.m; sourceTree = "<group>"; };
+		76787571192220CB009DDDB8 /* PXContentMailServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXContentMailServiceViewController.h; sourceTree = "<group>"; };
+		76787572192220CB009DDDB8 /* PXContentMailServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXContentMailServiceViewController.m; sourceTree = "<group>"; };
+		76787576192221B8009DDDB8 /* PXContentServiceLinksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXContentServiceLinksViewController.h; sourceTree = "<group>"; };
+		76787577192221B8009DDDB8 /* PXContentServiceLinksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXContentServiceLinksViewController.m; sourceTree = "<group>"; };
+		7678757B19222227009DDDB8 /* PXContentAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXContentAboutViewController.h; sourceTree = "<group>"; };
+		7678757C19222227009DDDB8 /* PXContentAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXContentAboutViewController.m; sourceTree = "<group>"; };
+		7678758A1922673F009DDDB8 /* PXLightHorizontalLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXLightHorizontalLine.h; sourceTree = "<group>"; };
+		7678758B1922673F009DDDB8 /* PXLightHorizontalLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXLightHorizontalLine.m; sourceTree = "<group>"; };
+		7678759919231A63009DDDB8 /* PXContentTrackPackageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXContentTrackPackageList.h; sourceTree = "<group>"; };
+		7678759A19231A63009DDDB8 /* PXContentTrackPackageList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXContentTrackPackageList.m; sourceTree = "<group>"; };
+		767B2F7219192D4D00170435 /* PXPackage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PXPackage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		767B2F7519192D4D00170435 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		767B2F7819192D4D00170435 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		767B2F7919192D4D00170435 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		767B2F7A19192D4D00170435 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		767B2F7D19192D4D00170435 /* PXPackage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PXPackage-Info.plist"; sourceTree = "<group>"; };
+		767B2F8119192D4D00170435 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		767B2F8319192D4D00170435 /* PXPackage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PXPackage-Prefix.pch"; sourceTree = "<group>"; };
+		767B2F8719192D4D00170435 /* PXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PXAppDelegate.h; sourceTree = "<group>"; };
+		767B2F8819192D4D00170435 /* PXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXAppDelegate.m; sourceTree = "<group>"; };
+		767B2F8B19192D4D00170435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PXMainWindow.xib; sourceTree = "<group>"; };
+		767B2F8D19192D4D00170435 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		767B2F9319192D4D00170435 /* PXPackageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXPackageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		767B2F9419192D4D00170435 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		767B2F9B19192D4D00170435 /* PXPackageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PXPackageTests-Info.plist"; sourceTree = "<group>"; };
+		767B2F9D19192D4D00170435 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		767B2F9F19192D4D00170435 /* PXPackageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXPackageTests.m; sourceTree = "<group>"; };
+		767B2FA919192DFC00170435 /* PXPackage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PXPackage.entitlements; sourceTree = "<group>"; };
+		767B2FAA19192EA000170435 /* PXPackageMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXPackageMeta.h; sourceTree = "<group>"; };
+		767B2FAB19192EA000170435 /* PXPackageMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXPackageMeta.m; sourceTree = "<group>"; };
+		767B2FB419192EFC00170435 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		767B2FB91919342C00170435 /* PXDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXDataProvider.h; sourceTree = "<group>"; };
+		767B2FBA1919342C00170435 /* PXDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXDataProvider.m; sourceTree = "<group>"; };
+		767B2FC01919C8AD00170435 /* company.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = company.json; sourceTree = "<group>"; };
+		767B2FC41919CC5300170435 /* PXDataCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXDataCore.h; sourceTree = "<group>"; };
+		767B2FC51919CC5300170435 /* PXDataCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXDataCore.m; sourceTree = "<group>"; };
+		767CFDCE19244129002383F8 /* PXContentInputCompanyNameTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXContentInputCompanyNameTextField.h; sourceTree = "<group>"; };
+		767CFDCF19244129002383F8 /* PXContentInputCompanyNameTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXContentInputCompanyNameTextField.m; sourceTree = "<group>"; };
+		767CFDD11924C968002383F8 /* PXContentTrackPackageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXContentTrackPackageContent.h; sourceTree = "<group>"; };
+		767CFDD21924C968002383F8 /* PXContentTrackPackageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXContentTrackPackageContent.m; sourceTree = "<group>"; };
+		767CFDD41924DFBA002383F8 /* PXMiddleAlignedTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXMiddleAlignedTextFieldCell.h; sourceTree = "<group>"; };
+		767CFDD51924DFBA002383F8 /* PXMiddleAlignedTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXMiddleAlignedTextFieldCell.m; sourceTree = "<group>"; };
+		767CFDD71924EDB3002383F8 /* PXContentMailServiceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXContentMailServiceList.h; sourceTree = "<group>"; };
+		767CFDD81924EDB3002383F8 /* PXContentMailServiceList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXContentMailServiceList.m; sourceTree = "<group>"; };
+		768074A8191A66A200C249AE /* PXMainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXMainWindow.h; sourceTree = "<group>"; };
+		768074A9191A66A200C249AE /* PXMainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXMainWindow.m; sourceTree = "<group>"; };
+		7680A8621925D0CB0099CE66 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hans"; path = "zh-Hans.lproj/Credits.rtf"; sourceTree = "<group>"; };
+		7680A8631925D1750099CE66 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Values.strings"; sourceTree = "<group>"; };
+		7680A8661925D4D30099CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Values.strings; sourceTree = "<group>"; };
+		7680A8671925D4DF0099CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Base; path = Base.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7680A86F1925D71B0099CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PXContentTrackPackageAddView.xib; sourceTree = "<group>"; };
+		7680A8751925D8110099CE66 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/PXContentTrackPackageAddView.xib"; sourceTree = "<group>"; };
+		7680A8791925D8D20099CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PXContentMailServiceView.xib; sourceTree = "<group>"; };
+		7680A87E1925D8FC0099CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PXContentTrackPackageView.xib; sourceTree = "<group>"; };
+		7680A8821925D9270099CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7680A8851925DA620099CE66 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/PXContentTrackPackageView.xib"; sourceTree = "<group>"; };
+		7680A8861925DBD00099CE66 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/PXContentMailServiceView.xib"; sourceTree = "<group>"; };
+		7680A8881925DC500099CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PXContentServiceLinksView.xib; sourceTree = "<group>"; };
+		7680A88C1925DC850099CE66 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/PXContentServiceLinksView.xib"; sourceTree = "<group>"; };
+		7680A88E1925DCA80099CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PXContentAboutView.xib; sourceTree = "<group>"; };
+		7680A8921925DD3E0099CE66 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/PXContentAboutView.xib"; sourceTree = "<group>"; };
+		7680A8931925DDFB0099CE66 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/PXMainWindow.xib"; sourceTree = "<group>"; };
+		769BCF38192F274300F3E92D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PXMainWindow.xib; sourceTree = "<group>"; };
+		769BCF3F192F277300F3E92D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PXContentTrackPackageAddView.xib; sourceTree = "<group>"; };
+		769BCF40192F277A00F3E92D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PXContentTrackPackageView.xib; sourceTree = "<group>"; };
+		769BCF41192F278A00F3E92D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PXContentMailServiceView.xib; sourceTree = "<group>"; };
+		769BCF44192F279A00F3E92D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PXContentServiceLinksView.xib; sourceTree = "<group>"; };
+		769BCF47192F27A600F3E92D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PXContentAboutView.xib; sourceTree = "<group>"; };
+		769BCF48192F27C200F3E92D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Values.strings; sourceTree = "<group>"; };
+		769BCF49192F27CB00F3E92D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		769BCF4A192F27D700F3E92D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76FC22FE1920A0B500209D94 /* PXSideBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXSideBarView.h; sourceTree = "<group>"; };
+		76FC22FF1920A0B500209D94 /* PXSideBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXSideBarView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		767B2F6F19192D4D00170435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767B2F7619192D4D00170435 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767B2F9019192D4D00170435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767B2F9619192D4D00170435 /* Cocoa.framework in Frameworks */,
+				767B2F9519192D4D00170435 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7678755F1921F188009DDDB8 /* Side */ = {
+			isa = PBXGroup;
+			children = (
+				76FC22FE1920A0B500209D94 /* PXSideBarView.h */,
+				76FC22FF1920A0B500209D94 /* PXSideBarView.m */,
+				767875501921C653009DDDB8 /* PXSideBarButtonCell.h */,
+				767875511921C653009DDDB8 /* PXSideBarButtonCell.m */,
+			);
+			name = Side;
+			sourceTree = "<group>";
+		};
+		7678756019220DFD009DDDB8 /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				768074A8191A66A200C249AE /* PXMainWindow.h */,
+				768074A9191A66A200C249AE /* PXMainWindow.m */,
+				767875561921EB5F009DDDB8 /* PXLightVerticalLine.h */,
+				767875571921EB5F009DDDB8 /* PXLightVerticalLine.m */,
+				7678758A1922673F009DDDB8 /* PXLightHorizontalLine.h */,
+				7678758B1922673F009DDDB8 /* PXLightHorizontalLine.m */,
+				767CFDD41924DFBA002383F8 /* PXMiddleAlignedTextFieldCell.h */,
+				767CFDD51924DFBA002383F8 /* PXMiddleAlignedTextFieldCell.m */,
+			);
+			name = Window;
+			sourceTree = "<group>";
+		};
+		7678756819221BAD009DDDB8 /* ContentViews */ = {
+			isa = PBXGroup;
+			children = (
+				7678757019221DA6009DDDB8 /* ViewManageController */,
+				7678758219222446009DDDB8 /* TrackPackage */,
+				7678758419222455009DDDB8 /* MailService */,
+				7678758519222460009DDDB8 /* ServiceLinks */,
+				7678758619222469009DDDB8 /* About */,
+			);
+			name = ContentViews;
+			sourceTree = "<group>";
+		};
+		7678757019221DA6009DDDB8 /* ViewManageController */ = {
+			isa = PBXGroup;
+			children = (
+				7678756119221A4E009DDDB8 /* PXViewManageController.h */,
+				7678756219221A4E009DDDB8 /* PXViewManageController.m */,
+			);
+			name = ViewManageController;
+			sourceTree = "<group>";
+		};
+		7678758219222446009DDDB8 /* TrackPackage */ = {
+			isa = PBXGroup;
+			children = (
+				7680A8701925D71B0099CE66 /* PXContentTrackPackageAddView.xib */,
+				767CFDCE19244129002383F8 /* PXContentInputCompanyNameTextField.h */,
+				767CFDCF19244129002383F8 /* PXContentInputCompanyNameTextField.m */,
+				7680A87F1925D8FC0099CE66 /* PXContentTrackPackageView.xib */,
+				7678756919221BD5009DDDB8 /* PXContentTrackPackageViewController.h */,
+				7678756A19221BD5009DDDB8 /* PXContentTrackPackageViewController.m */,
+				7678759919231A63009DDDB8 /* PXContentTrackPackageList.h */,
+				7678759A19231A63009DDDB8 /* PXContentTrackPackageList.m */,
+				767CFDD11924C968002383F8 /* PXContentTrackPackageContent.h */,
+				767CFDD21924C968002383F8 /* PXContentTrackPackageContent.m */,
+			);
+			name = TrackPackage;
+			sourceTree = "<group>";
+		};
+		7678758419222455009DDDB8 /* MailService */ = {
+			isa = PBXGroup;
+			children = (
+				7680A87A1925D8D20099CE66 /* PXContentMailServiceView.xib */,
+				76787571192220CB009DDDB8 /* PXContentMailServiceViewController.h */,
+				76787572192220CB009DDDB8 /* PXContentMailServiceViewController.m */,
+				767CFDD71924EDB3002383F8 /* PXContentMailServiceList.h */,
+				767CFDD81924EDB3002383F8 /* PXContentMailServiceList.m */,
+			);
+			name = MailService;
+			sourceTree = "<group>";
+		};
+		7678758519222460009DDDB8 /* ServiceLinks */ = {
+			isa = PBXGroup;
+			children = (
+				7680A8891925DC500099CE66 /* PXContentServiceLinksView.xib */,
+				76787576192221B8009DDDB8 /* PXContentServiceLinksViewController.h */,
+				76787577192221B8009DDDB8 /* PXContentServiceLinksViewController.m */,
+			);
+			name = ServiceLinks;
+			sourceTree = "<group>";
+		};
+		7678758619222469009DDDB8 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				7680A88F1925DCA80099CE66 /* PXContentAboutView.xib */,
+				7678757B19222227009DDDB8 /* PXContentAboutViewController.h */,
+				7678757C19222227009DDDB8 /* PXContentAboutViewController.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		767B2F6919192D4C00170435 = {
+			isa = PBXGroup;
+			children = (
+				767B2F7B19192D4D00170435 /* PXPackage */,
+				767B2F9919192D4D00170435 /* PXPackageTests */,
+				767B2F7419192D4D00170435 /* Frameworks */,
+				767B2F7319192D4D00170435 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		767B2F7319192D4D00170435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				767B2F7219192D4D00170435 /* PXPackage.app */,
+				767B2F9319192D4D00170435 /* PXPackageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		767B2F7419192D4D00170435 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				767B2F7519192D4D00170435 /* Cocoa.framework */,
+				767B2F9419192D4D00170435 /* XCTest.framework */,
+				767B2F7719192D4D00170435 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		767B2F7719192D4D00170435 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				767B2F7819192D4D00170435 /* AppKit.framework */,
+				767B2F7919192D4D00170435 /* CoreData.framework */,
+				767B2F7A19192D4D00170435 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		767B2F7B19192D4D00170435 /* PXPackage */ = {
+			isa = PBXGroup;
+			children = (
+				767B2FA919192DFC00170435 /* PXPackage.entitlements */,
+				767B2F8719192D4D00170435 /* PXAppDelegate.h */,
+				767B2F8819192D4D00170435 /* PXAppDelegate.m */,
+				767B2FAD19192EAB00170435 /* Data */,
+				767B2FAE19192EB800170435 /* UI */,
+				767B2FBC191942D700170435 /* Resource */,
+				767B2F7C19192D4D00170435 /* Supporting Files */,
+			);
+			path = PXPackage;
+			sourceTree = "<group>";
+		};
+		767B2F7C19192D4D00170435 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				767B2FC01919C8AD00170435 /* company.json */,
+				767B2F8419192D4D00170435 /* Credits.rtf */,
+				767B2F7E19192D4D00170435 /* InfoPlist.strings */,
+				767B2F8119192D4D00170435 /* main.m */,
+				767B2F8319192D4D00170435 /* PXPackage-Prefix.pch */,
+				767B2F7D19192D4D00170435 /* PXPackage-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		767B2F9919192D4D00170435 /* PXPackageTests */ = {
+			isa = PBXGroup;
+			children = (
+				767B2F9F19192D4D00170435 /* PXPackageTests.m */,
+				767B2F9A19192D4D00170435 /* Supporting Files */,
+			);
+			path = PXPackageTests;
+			sourceTree = "<group>";
+		};
+		767B2F9A19192D4D00170435 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				767B2F9B19192D4D00170435 /* PXPackageTests-Info.plist */,
+				767B2F9C19192D4D00170435 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		767B2FAD19192EAB00170435 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				767B2FC41919CC5300170435 /* PXDataCore.h */,
+				767B2FC51919CC5300170435 /* PXDataCore.m */,
+				767B2FB91919342C00170435 /* PXDataProvider.h */,
+				767B2FBA1919342C00170435 /* PXDataProvider.m */,
+				767B2FAA19192EA000170435 /* PXPackageMeta.h */,
+				767B2FAB19192EA000170435 /* PXPackageMeta.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		767B2FAE19192EB800170435 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				767B2F8A19192D4D00170435 /* PXMainWindow.xib */,
+				7678755C1921F179009DDDB8 /* PXAppController.h */,
+				7678755D1921F179009DDDB8 /* PXAppController.m */,
+				7678756819221BAD009DDDB8 /* ContentViews */,
+				7678756019220DFD009DDDB8 /* Window */,
+				7678755F1921F188009DDDB8 /* Side */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		767B2FBC191942D700170435 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				761710B91920DB9B0083C08A /* PXValues.h */,
+				767B2FB719192F1B00170435 /* Values.strings */,
+				767B2F8D19192D4D00170435 /* Images.xcassets */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		767B2F7119192D4D00170435 /* PXPackage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767B2FA319192D4D00170435 /* Build configuration list for PBXNativeTarget "PXPackage" */;
+			buildPhases = (
+				767B2F6E19192D4D00170435 /* Sources */,
+				767B2F6F19192D4D00170435 /* Frameworks */,
+				767B2F7019192D4D00170435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PXPackage;
+			productName = PXPackage;
+			productReference = 767B2F7219192D4D00170435 /* PXPackage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		767B2F9219192D4D00170435 /* PXPackageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767B2FA619192D4D00170435 /* Build configuration list for PBXNativeTarget "PXPackageTests" */;
+			buildPhases = (
+				767B2F8F19192D4D00170435 /* Sources */,
+				767B2F9019192D4D00170435 /* Frameworks */,
+				767B2F9119192D4D00170435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				767B2F9819192D4D00170435 /* PBXTargetDependency */,
+			);
+			name = PXPackageTests;
+			productName = PXPackageTests;
+			productReference = 767B2F9319192D4D00170435 /* PXPackageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		767B2F6A19192D4C00170435 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = PrettyX;
+				TargetAttributes = {
+					767B2F7119192D4D00170435 = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					767B2F9219192D4D00170435 = {
+						TestTargetID = 767B2F7119192D4D00170435;
+					};
+				};
+			};
+			buildConfigurationList = 767B2F6D19192D4C00170435 /* Build configuration list for PBXProject "PXPackage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 767B2F6919192D4C00170435;
+			productRefGroup = 767B2F7319192D4D00170435 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				767B2F7119192D4D00170435 /* PXPackage */,
+				767B2F9219192D4D00170435 /* PXPackageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		767B2F7019192D4D00170435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7680A88D1925DCA80099CE66 /* PXContentAboutView.xib in Resources */,
+				7680A86E1925D71B0099CE66 /* PXContentTrackPackageAddView.xib in Resources */,
+				767B2F8019192D4D00170435 /* InfoPlist.strings in Resources */,
+				767B2FC11919C8AD00170435 /* company.json in Resources */,
+				767B2F8E19192D4D00170435 /* Images.xcassets in Resources */,
+				767B2FB519192F1B00170435 /* Values.strings in Resources */,
+				767B2F8619192D4D00170435 /* Credits.rtf in Resources */,
+				7680A8871925DC500099CE66 /* PXContentServiceLinksView.xib in Resources */,
+				767B2F8C19192D4D00170435 /* PXMainWindow.xib in Resources */,
+				7680A87D1925D8FC0099CE66 /* PXContentTrackPackageView.xib in Resources */,
+				7680A8781925D8D20099CE66 /* PXContentMailServiceView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767B2F9119192D4D00170435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767B2F9E19192D4D00170435 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		767B2F6E19192D4D00170435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7678756B19221BD5009DDDB8 /* PXContentTrackPackageViewController.m in Sources */,
+				767B2FAC19192EA000170435 /* PXPackageMeta.m in Sources */,
+				767CFDD31924C968002383F8 /* PXContentTrackPackageContent.m in Sources */,
+				7678759B19231A63009DDDB8 /* PXContentTrackPackageList.m in Sources */,
+				7678755E1921F179009DDDB8 /* PXAppController.m in Sources */,
+				767B2FBB1919342C00170435 /* PXDataProvider.m in Sources */,
+				7678756419221A4E009DDDB8 /* PXViewManageController.m in Sources */,
+				767875521921C653009DDDB8 /* PXSideBarButtonCell.m in Sources */,
+				768074AA191A66A200C249AE /* PXMainWindow.m in Sources */,
+				767CFDD61924DFBA002383F8 /* PXMiddleAlignedTextFieldCell.m in Sources */,
+				7678757E19222227009DDDB8 /* PXContentAboutViewController.m in Sources */,
+				767CFDD019244129002383F8 /* PXContentInputCompanyNameTextField.m in Sources */,
+				767B2F8919192D4D00170435 /* PXAppDelegate.m in Sources */,
+				767B2F8219192D4D00170435 /* main.m in Sources */,
+				767B2FC61919CC5300170435 /* PXDataCore.m in Sources */,
+				7678758C1922673F009DDDB8 /* PXLightHorizontalLine.m in Sources */,
+				76787573192220CB009DDDB8 /* PXContentMailServiceViewController.m in Sources */,
+				76FC23001920A0B500209D94 /* PXSideBarView.m in Sources */,
+				767CFDD91924EDB3002383F8 /* PXContentMailServiceList.m in Sources */,
+				767875581921EB5F009DDDB8 /* PXLightVerticalLine.m in Sources */,
+				76787578192221B8009DDDB8 /* PXContentServiceLinksViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767B2F8F19192D4D00170435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767B2FA019192D4D00170435 /* PXPackageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		767B2F9819192D4D00170435 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 767B2F7119192D4D00170435 /* PXPackage */;
+			targetProxy = 767B2F9719192D4D00170435 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		767B2F7E19192D4D00170435 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7680A8821925D9270099CE66 /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		767B2F8419192D4D00170435 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7680A8621925D0CB0099CE66 /* zh-Hans */,
+				7680A8671925D4DF0099CE66 /* Base */,
+				769BCF49192F27CB00F3E92D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		767B2F8A19192D4D00170435 /* PXMainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767B2F8B19192D4D00170435 /* Base */,
+				7680A8931925DDFB0099CE66 /* zh-Hans */,
+				769BCF38192F274300F3E92D /* en */,
+			);
+			name = PXMainWindow.xib;
+			sourceTree = "<group>";
+		};
+		767B2F9C19192D4D00170435 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767B2F9D19192D4D00170435 /* en */,
+				767B2FB419192EFC00170435 /* zh-Hans */,
+				769BCF4A192F27D700F3E92D /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		767B2FB719192F1B00170435 /* Values.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7680A8631925D1750099CE66 /* zh-Hans */,
+				7680A8661925D4D30099CE66 /* Base */,
+				769BCF48192F27C200F3E92D /* en */,
+			);
+			name = Values.strings;
+			sourceTree = "<group>";
+		};
+		7680A8701925D71B0099CE66 /* PXContentTrackPackageAddView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7680A86F1925D71B0099CE66 /* Base */,
+				7680A8751925D8110099CE66 /* zh-Hans */,
+				769BCF3F192F277300F3E92D /* en */,
+			);
+			name = PXContentTrackPackageAddView.xib;
+			sourceTree = "<group>";
+		};
+		7680A87A1925D8D20099CE66 /* PXContentMailServiceView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7680A8791925D8D20099CE66 /* Base */,
+				7680A8861925DBD00099CE66 /* zh-Hans */,
+				769BCF41192F278A00F3E92D /* en */,
+			);
+			name = PXContentMailServiceView.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7680A87F1925D8FC0099CE66 /* PXContentTrackPackageView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7680A87E1925D8FC0099CE66 /* Base */,
+				7680A8851925DA620099CE66 /* zh-Hans */,
+				769BCF40192F277A00F3E92D /* en */,
+			);
+			name = PXContentTrackPackageView.xib;
+			sourceTree = "<group>";
+		};
+		7680A8891925DC500099CE66 /* PXContentServiceLinksView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7680A8881925DC500099CE66 /* Base */,
+				7680A88C1925DC850099CE66 /* zh-Hans */,
+				769BCF44192F279A00F3E92D /* en */,
+			);
+			name = PXContentServiceLinksView.xib;
+			sourceTree = "<group>";
+		};
+		7680A88F1925DCA80099CE66 /* PXContentAboutView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7680A88E1925DCA80099CE66 /* Base */,
+				7680A8921925DD3E0099CE66 /* zh-Hans */,
+				769BCF47192F27A600F3E92D /* en */,
+			);
+			name = PXContentAboutView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		767B2FA119192D4D00170435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		767B2FA219192D4D00170435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		767B2FA419192D4D00170435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PXPackage/PXPackage-Prefix.pch";
+				INFOPLIST_FILE = "PXPackage/PXPackage-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		767B2FA519192D4D00170435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PXPackage/PXPackage-Prefix.pch";
+				INFOPLIST_FILE = "PXPackage/PXPackage-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		767B2FA719192D4D00170435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PXPackage.app/Contents/MacOS/PXPackage";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PXPackage/PXPackage-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PXPackageTests/PXPackageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		767B2FA819192D4D00170435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PXPackage.app/Contents/MacOS/PXPackage";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PXPackage/PXPackage-Prefix.pch";
+				INFOPLIST_FILE = "PXPackageTests/PXPackageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		767B2F6D19192D4C00170435 /* Build configuration list for PBXProject "PXPackage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767B2FA119192D4D00170435 /* Debug */,
+				767B2FA219192D4D00170435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		767B2FA319192D4D00170435 /* Build configuration list for PBXNativeTarget "PXPackage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767B2FA419192D4D00170435 /* Debug */,
+				767B2FA519192D4D00170435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		767B2FA619192D4D00170435 /* Build configuration list for PBXNativeTarget "PXPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767B2FA719192D4D00170435 /* Debug */,
+				767B2FA819192D4D00170435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 767B2F6A19192D4C00170435 /* Project object */;
+}
