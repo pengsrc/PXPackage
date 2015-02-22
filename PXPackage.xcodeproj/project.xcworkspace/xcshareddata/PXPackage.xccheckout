@@ -10,14 +10,14 @@
 	<string>PXPackage</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>C460741587825A28DD57FC3D7292F6FCB0CB23BB</key>
+		<key>3A62204CEEE73D87B1F1EB11F5112D6AD808F31D</key>
 		<string>github.com:prettyxw/PXPackage.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>PXPackage.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>C460741587825A28DD57FC3D7292F6FCB0CB23BB</key>
+		<key>3A62204CEEE73D87B1F1EB11F5112D6AD808F31D</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C460741587825A28DD57FC3D7292F6FCB0CB23BB</string>
+	<string>3A62204CEEE73D87B1F1EB11F5112D6AD808F31D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C460741587825A28DD57FC3D7292F6FCB0CB23BB</string>
+			<string>3A62204CEEE73D87B1F1EB11F5112D6AD808F31D</string>
 			<key>IDESourceControlWCCName</key>
 			<string>PXPackage</string>
 		</dict>
