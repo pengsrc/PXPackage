@@ -9,8 +9,8 @@
 /* Strings */
 
 "AppName" = "PXPackage";
-"DonateUrl" = "http://prettyx.org/donate";
-"PrettyXUrl" = "http://prettyx.org";
+"DonateUrl" = "https://prettyx.org/donate";
+"PrettyXUrl" = "https://prettyx.org";
 "EmailAddress" = "pengsrc@icloud.com";
 
 "Kuaidi100Url" = "http://www.kuaidi100.com";
