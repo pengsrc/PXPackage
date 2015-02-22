@@ -178,11 +178,12 @@
 - (void)refreshAllData{
 
 	if ([PXDataProvider testNetworkConnection] == NO) {
-		NSBeginAlertSheet(NSLocalizedStringFromTable(PX_INTERNET_CONNECTION_LOST, PX_VALUES, nil),
-						  NSLocalizedStringFromTable(PX_OK, PX_VALUES, nil), nil, nil,
-						  [[NSApp delegate]window], self,
-						  nil, nil, nil,
-						  NSLocalizedStringFromTable(PX_CHECK_YOUR_INTERNET_CONNECTION, PX_VALUES, nil));
+        
+//		NSBeginAlertSheet(NSLocalizedStringFromTable(PX_INTERNET_CONNECTION_LOST, PX_VALUES, nil),
+//						  NSLocalizedStringFromTable(PX_OK, PX_VALUES, nil), nil, nil,
+//						  [[NSApp delegate]window], self,
+//						  nil, nil, nil,
+//						  NSLocalizedStringFromTable(PX_CHECK_YOUR_INTERNET_CONNECTION, PX_VALUES, nil));
 		return;
 	}
 
@@ -287,8 +288,9 @@
 							topLevelObjects:nil];
     }
 
+    
 	[NSApp beginSheet:[self addSheet]
-	   modalForWindow:[[NSApp delegate]window]
+	   modalForWindow:self.parentViewController
 		modalDelegate:nil
 	   didEndSelector:nil
 		  contextInfo:nil];

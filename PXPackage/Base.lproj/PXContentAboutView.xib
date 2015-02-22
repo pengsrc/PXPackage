@@ -38,7 +38,7 @@
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8tM-XH-9U9">
-                    <rect key="frame" x="180" y="113" width="58" height="19"/>
+                    <rect key="frame" x="213" y="112" width="58" height="19"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Email : " id="ylF-DF-oOW">
                         <font key="font" metaFont="system" size="15"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -72,7 +72,7 @@
                     </connections>
                 </button>
                 <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cdp-Ce-LQ5">
-                    <rect key="frame" x="234" y="109" width="225" height="27"/>
+                    <rect key="frame" x="260" y="108" width="165" height="27"/>
                     <buttonCell key="cell" type="bevel" title="pengsrc@icloud.com" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="UZQ-pf-W4l">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system" size="15"/>
