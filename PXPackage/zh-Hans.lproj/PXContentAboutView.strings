@@ -1,0 +1,21 @@
+
+/* Class = "NSTextFieldCell"; title = "Weisite : "; ObjectID = "9Ch-Ay-RCq"; */
+"9Ch-Ay-RCq.title" = "网站 : ";
+
+/* Class = "NSTextFieldCell"; title = "PXPackage is licensed under GPL. Please contact me if you have any question or suggestions."; ObjectID = "HJS-g0-yLI"; */
+"HJS-g0-yLI.title" = "PXPackage is licensed under GPL. Please contact me if you have any question or suggestions.";
+
+/* Class = "NSButtonCell"; title = "pengsrc@icloud.com"; ObjectID = "UZQ-pf-W4l"; */
+"UZQ-pf-W4l.title" = "pengsrc@icloud.com";
+
+/* Class = "NSButtonCell"; title = "https://prettyxw.com"; ObjectID = "etc-Q9-P3F"; */
+"etc-Q9-P3F.title" = "https://prettyxw.com";
+
+/* Class = "NSTextFieldCell"; title = "PXPackage X.X Build(XXX)"; ObjectID = "kqa-Ei-cbp"; */
+"kqa-Ei-cbp.title" = "PXPackage X.X Build(XXX)";
+
+/* Class = "NSTextFieldCell"; title = "Author : Peng Jingwen"; ObjectID = "u3m-G3-VQL"; */
+"u3m-G3-VQL.title" = "作者 : Peng Jingwen";
+
+/* Class = "NSTextFieldCell"; title = "Email : "; ObjectID = "ylF-DF-oOW"; */
+"ylF-DF-oOW.title" = "邮箱 : ";

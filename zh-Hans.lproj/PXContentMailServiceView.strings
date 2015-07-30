@@ -1,0 +1,45 @@
+
+/* Class = "NSSearchFieldCell"; placeholderString = "搜索"; ObjectID = "5us-1j-L4f"; */
+"5us-1j-L4f.placeholderString" = "搜索";
+
+/* Class = "NSTextFieldCell"; title = "投诉电话 :"; ObjectID = "AoC-jg-GC2"; */
+"AoC-jg-GC2.title" = "投诉电话 :";
+
+/* Class = "NSTextFieldCell"; title = "服务站点 :"; ObjectID = "G5K-uf-gS7"; */
+"G5K-uf-gS7.title" = "服务站点 :";
+
+/* Class = "NSBox"; title = "盒子"; ObjectID = "HLk-40-fP9"; */
+"HLk-40-fP9.title" = "盒子";
+
+/* Class = "NSTextFieldCell"; title = "官方网站 :"; ObjectID = "Hja-mg-z5M"; */
+"Hja-mg-z5M.title" = "官方网站 :";
+
+/* Class = "NSTextFieldCell"; placeholderString = "无数据"; ObjectID = "JzL-Eq-zJa"; */
+"JzL-Eq-zJa.placeholderString" = "无数据";
+
+/* Class = "NSTextFieldCell"; placeholderString = "无数据"; ObjectID = "LSR-dJ-y6i"; */
+"LSR-dJ-y6i.placeholderString" = "无数据";
+
+/* Class = "NSTextFieldCell"; placeholderString = "无数据"; ObjectID = "Paf-oD-XMn"; */
+"Paf-oD-XMn.placeholderString" = "无数据";
+
+/* Class = "NSBox"; title = "盒子"; ObjectID = "Sh9-ez-DKo"; */
+"Sh9-ez-DKo.title" = "盒子";
+
+/* Class = "NSTextFieldCell"; placeholderString = "无数据"; ObjectID = "Zsv-tY-I7t"; */
+"Zsv-tY-I7t.placeholderString" = "无数据";
+
+/* Class = "NSTextFieldCell"; title = "联系电话 :"; ObjectID = "cQU-B6-4Ou"; */
+"cQU-B6-4Ou.title" = "联系电话 :";
+
+/* Class = "NSBox"; title = "盒子"; ObjectID = "ezD-Ip-oe4"; */
+"ezD-Ip-oe4.title" = "盒子";
+
+/* Class = "NSTextFieldCell"; placeholderString = "无数据"; ObjectID = "fQ2-uf-HTN"; */
+"fQ2-uf-HTN.placeholderString" = "无数据";
+
+/* Class = "NSTextFieldCell"; title = "查询网址 :"; ObjectID = "tFh-Nt-8LW"; */
+"tFh-Nt-8LW.title" = "查询网址 :";
+
+/* Class = "NSTextFieldCell"; placeholderString = "无数据"; ObjectID = "yas-KP-OWM"; */
+"yas-KP-OWM.placeholderString" = "无数据";

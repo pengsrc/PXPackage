@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>org.prettyx.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.prettyxw.mac.$(PRODUCT_NAME:rfc1034identifier)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -21,7 +21,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>259</string>
+	<string>270</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.utilities</string>
 	<key>LSHasLocalizedDisplayName</key>
@@ -29,7 +29,7 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2014 PrettyX. All rights reserved.</string>
+	<string>Copyright © 2012-2015 Peng Jingwen. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>PXMainWindow</string>
 	<key>NSPrincipalClass</key>

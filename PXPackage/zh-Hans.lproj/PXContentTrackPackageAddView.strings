@@ -1,0 +1,27 @@
+
+/* Class = "NSComboBoxCell"; placeholderString = "示例 -> EMS"; ObjectID = "LAH-lU-bvD"; */
+"LAH-lU-bvD.placeholderString" = "示例 -> EMS";
+
+/* Class = "NSWindow"; title = "窗口"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "窗口";
+
+/* Class = "NSButtonCell"; title = "确定"; ObjectID = "Rva-J4-wp6"; */
+"Rva-J4-wp6.title" = "确定";
+
+/* Class = "NSTextFieldCell"; placeholderString = "示例 -> PXPackage"; ObjectID = "W6D-cY-pDT"; */
+"W6D-cY-pDT.placeholderString" = "示例 -> PXPackage";
+
+/* Class = "NSTextFieldCell"; title = "快递服务 :"; ObjectID = "lW4-h0-Cu0"; */
+"lW4-h0-Cu0.title" = "快递服务 :";
+
+/* Class = "NSTextFieldCell"; placeholderString = "示例 -> 0123456789"; ObjectID = "ngx-A6-JKd"; */
+"ngx-A6-JKd.placeholderString" = "示例 -> 0123456789";
+
+/* Class = "NSTextFieldCell"; title = "快递单号 :"; ObjectID = "p3D-el-J2Y"; */
+"p3D-el-J2Y.title" = "快递单号 :";
+
+/* Class = "NSButtonCell"; title = "取消"; ObjectID = "pty-uL-W2G"; */
+"pty-uL-W2G.title" = "取消";
+
+/* Class = "NSTextFieldCell"; title = "快递标记 :"; ObjectID = "zQy-9g-fm8"; */
+"zQy-9g-fm8.title" = "快递标记 :";

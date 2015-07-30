@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="PXContentAboutViewController">
@@ -45,14 +45,6 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fJy-bc-jrh">
-                    <rect key="frame" x="242" y="85" width="69" height="19"/>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Weisite : " id="9Ch-Ay-RCq">
-                        <font key="font" metaFont="system" size="15"/>
-                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                    </textFieldCell>
-                </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hDN-ms-eFF">
                     <rect key="frame" x="27" y="20" width="586" height="17"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="PXPackage is licensed under GPL. Please contact me if you have any question or suggestions." id="HJS-g0-yLI">
@@ -61,16 +53,6 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rbk-Vn-8Iu">
-                    <rect key="frame" x="299" y="84" width="98" height="21"/>
-                    <buttonCell key="cell" type="bevel" title="PrettyX.org" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="etc-Q9-P3F">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="system" size="15"/>
-                    </buttonCell>
-                    <connections>
-                        <action selector="openUrl:" target="-2" id="jIE-GR-aUe"/>
-                    </connections>
-                </button>
                 <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cdp-Ce-LQ5">
                     <rect key="frame" x="260" y="108" width="165" height="27"/>
                     <buttonCell key="cell" type="bevel" title="pengsrc@icloud.com" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="UZQ-pf-W4l">
@@ -79,6 +61,24 @@
                     </buttonCell>
                     <connections>
                         <action selector="openEmail:" target="-2" id="etd-kS-e7y"/>
+                    </connections>
+                </button>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fJy-bc-jrh">
+                    <rect key="frame" x="213" y="85" width="69" height="19"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Weisite : " id="9Ch-Ay-RCq">
+                        <font key="font" metaFont="system" size="15"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rbk-Vn-8Iu">
+                    <rect key="frame" x="276" y="78" width="149" height="32"/>
+                    <buttonCell key="cell" type="bevel" title="https://prettyxw.com" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="etc-Q9-P3F">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system" size="15"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="openUrl:" target="-2" id="jIE-GR-aUe"/>
                     </connections>
                 </button>
             </subviews>

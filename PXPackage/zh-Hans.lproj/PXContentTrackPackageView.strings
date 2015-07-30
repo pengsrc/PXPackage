@@ -1,0 +1,60 @@
+
+/* Class = "NSBox"; title = "盒子"; ObjectID = "3Gp-kP-dLt"; */
+"3Gp-kP-dLt.title" = "盒子";
+
+/* Class = "NSTextFieldCell"; placeholderString = "无数据"; ObjectID = "3lF-dR-VeA"; */
+"3lF-dR-VeA.placeholderString" = "无数据";
+
+/* Class = "NSTextFieldCell"; title = "快递单号 :"; ObjectID = "6kB-Rg-2Mr"; */
+"6kB-Rg-2Mr.title" = "快递单号 :";
+
+/* Class = "NSTextFieldCell"; placeholderString = "无数据"; ObjectID = "9WP-j8-koK"; */
+"9WP-j8-koK.placeholderString" = "无数据";
+
+/* Class = "NSSearchFieldCell"; placeholderString = "搜索"; ObjectID = "ADC-MH-TWn"; */
+"ADC-MH-TWn.placeholderString" = "搜索";
+
+/* Class = "NSTextFieldCell"; title = "文本框"; ObjectID = "GnN-fT-oCx"; */
+"GnN-fT-oCx.title" = "文本框";
+
+/* Class = "NSTextFieldCell"; title = "文本框"; ObjectID = "N19-FC-Hje"; */
+"N19-FC-Hje.title" = "文本框";
+
+/* Class = "NSTextFieldCell"; placeholderString = "无数据"; ObjectID = "N9Q-bm-XLU"; */
+"N9Q-bm-XLU.placeholderString" = "无数据";
+
+/* Class = "NSBox"; title = "盒子"; ObjectID = "Pw3-De-toX"; */
+"Pw3-De-toX.title" = "盒子";
+
+/* Class = "NSBox"; title = "盒子"; ObjectID = "WEV-b4-c7Z"; */
+"WEV-b4-c7Z.title" = "盒子";
+
+/* Class = "NSTableColumn"; headerCell.title = "信息"; ObjectID = "ZhA-BJ-vYR"; */
+"ZhA-BJ-vYR.headerCell.title" = "信息";
+
+/* Class = "NSButtonCell"; title = "+"; ObjectID = "baZ-Aq-UhO"; */
+"baZ-Aq-UhO.title" = "+";
+
+/* Class = "NSTextFieldCell"; title = "快递标记 :"; ObjectID = "dkv-bN-wzg"; */
+"dkv-bN-wzg.title" = "快递标记 :";
+
+/* Class = "NSButtonCell"; title = "-"; ObjectID = "hyf-O4-iCu"; */
+"hyf-O4-iCu.title" = "-";
+
+/* Class = "NSTextFieldCell"; title = "快递服务 :"; ObjectID = "iSV-8K-1Xr"; */
+"iSV-8K-1Xr.title" = "快递服务 :";
+
+/* Class = "NSTextFieldCell"; placeholderString = "无数据"; ObjectID = "ihY-e0-bL2"; */
+"ihY-e0-bL2.placeholderString" = "无数据";
+
+/* Class = "NSBox"; title = "盒子"; ObjectID = "o49-gp-X8E"; */
+"o49-gp-X8E.title" = "盒子";
+
+/* Class = "NSButtonCell"; title = "⟳"; ObjectID = "oX1-WJ-GZJ"; */
+"oX1-WJ-GZJ.title" = "⟳";
+
+/* Class = "NSTableColumn"; headerCell.title = "时刻"; ObjectID = "pny-Y5-ucn"; */
+"pny-Y5-ucn.headerCell.title" = "时刻";
+
+/* Class = "NSTextFieldCell"; title = "总用时 :"; ObjectID = "wh7-aP-ax6"; */
+"wh7-aP-ax6.title" = "总用时 :";

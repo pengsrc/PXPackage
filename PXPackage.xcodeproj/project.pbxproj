@@ -93,7 +93,6 @@
 		767B2F9319192D4D00170435 /* PXPackageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXPackageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		767B2F9419192D4D00170435 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		767B2F9B19192D4D00170435 /* PXPackageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PXPackageTests-Info.plist"; sourceTree = "<group>"; };
-		767B2F9D19192D4D00170435 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		767B2F9F19192D4D00170435 /* PXPackageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXPackageTests.m; sourceTree = "<group>"; };
 		767B2FA919192DFC00170435 /* PXPackage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PXPackage.entitlements; sourceTree = "<group>"; };
 		767B2FAA19192EA000170435 /* PXPackageMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXPackageMeta.h; sourceTree = "<group>"; };
@@ -119,26 +118,18 @@
 		7680A8661925D4D30099CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Values.strings; sourceTree = "<group>"; };
 		7680A8671925D4DF0099CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Base; path = Base.lproj/Credits.rtf; sourceTree = "<group>"; };
 		7680A86F1925D71B0099CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PXContentTrackPackageAddView.xib; sourceTree = "<group>"; };
-		7680A8751925D8110099CE66 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/PXContentTrackPackageAddView.xib"; sourceTree = "<group>"; };
 		7680A8791925D8D20099CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PXContentMailServiceView.xib; sourceTree = "<group>"; };
 		7680A87E1925D8FC0099CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PXContentTrackPackageView.xib; sourceTree = "<group>"; };
 		7680A8821925D9270099CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7680A8851925DA620099CE66 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/PXContentTrackPackageView.xib"; sourceTree = "<group>"; };
-		7680A8861925DBD00099CE66 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/PXContentMailServiceView.xib"; sourceTree = "<group>"; };
 		7680A8881925DC500099CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PXContentServiceLinksView.xib; sourceTree = "<group>"; };
-		7680A88C1925DC850099CE66 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/PXContentServiceLinksView.xib"; sourceTree = "<group>"; };
 		7680A88E1925DCA80099CE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PXContentAboutView.xib; sourceTree = "<group>"; };
-		7680A8921925DD3E0099CE66 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/PXContentAboutView.xib"; sourceTree = "<group>"; };
-		7680A8931925DDFB0099CE66 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/PXMainWindow.xib"; sourceTree = "<group>"; };
-		769BCF38192F274300F3E92D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PXMainWindow.xib; sourceTree = "<group>"; };
-		769BCF3F192F277300F3E92D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PXContentTrackPackageAddView.xib; sourceTree = "<group>"; };
-		769BCF40192F277A00F3E92D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PXContentTrackPackageView.xib; sourceTree = "<group>"; };
-		769BCF41192F278A00F3E92D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PXContentMailServiceView.xib; sourceTree = "<group>"; };
-		769BCF44192F279A00F3E92D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PXContentServiceLinksView.xib; sourceTree = "<group>"; };
-		769BCF47192F27A600F3E92D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PXContentAboutView.xib; sourceTree = "<group>"; };
-		769BCF48192F27C200F3E92D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Values.strings; sourceTree = "<group>"; };
-		769BCF49192F27CB00F3E92D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		769BCF4A192F27D700F3E92D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76A3B4FF1B69CE0300516C6B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/PXMainWindow.strings"; sourceTree = "<group>"; };
+		76A3B5001B69CE3000516C6B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/PXContentTrackPackageAddView.strings"; sourceTree = "<group>"; };
+		76A3B5011B69CE3D00516C6B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/PXContentTrackPackageView.strings"; sourceTree = "<group>"; };
+		76A3B5021B69CE4F00516C6B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/PXContentMailServiceView.strings"; sourceTree = "<group>"; };
+		76A3B5031B69CE5700516C6B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/PXContentServiceLinksView.strings"; sourceTree = "<group>"; };
+		76A3B5061B69CE9500516C6B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/PXContentAboutView.strings"; sourceTree = "<group>"; };
 		76FC22FE1920A0B500209D94 /* PXSideBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXSideBarView.h; sourceTree = "<group>"; };
 		76FC22FF1920A0B500209D94 /* PXSideBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXSideBarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -445,7 +436,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 				"zh-Hans",
 			);
@@ -550,7 +540,6 @@
 			children = (
 				7680A8621925D0CB0099CE66 /* zh-Hans */,
 				7680A8671925D4DF0099CE66 /* Base */,
-				769BCF49192F27CB00F3E92D /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -559,8 +548,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				767B2F8B19192D4D00170435 /* Base */,
-				7680A8931925DDFB0099CE66 /* zh-Hans */,
-				769BCF38192F274300F3E92D /* en */,
+				76A3B4FF1B69CE0300516C6B /* zh-Hans */,
 			);
 			name = PXMainWindow.xib;
 			sourceTree = "<group>";
@@ -568,7 +556,6 @@
 		767B2F9C19192D4D00170435 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				767B2F9D19192D4D00170435 /* en */,
 				767B2FB419192EFC00170435 /* zh-Hans */,
 				769BCF4A192F27D700F3E92D /* Base */,
 			);
@@ -580,7 +567,6 @@
 			children = (
 				7680A8631925D1750099CE66 /* zh-Hans */,
 				7680A8661925D4D30099CE66 /* Base */,
-				769BCF48192F27C200F3E92D /* en */,
 			);
 			name = Values.strings;
 			sourceTree = "<group>";
@@ -589,8 +575,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7680A86F1925D71B0099CE66 /* Base */,
-				7680A8751925D8110099CE66 /* zh-Hans */,
-				769BCF3F192F277300F3E92D /* en */,
+				76A3B5001B69CE3000516C6B /* zh-Hans */,
 			);
 			name = PXContentTrackPackageAddView.xib;
 			sourceTree = "<group>";
@@ -599,8 +584,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7680A8791925D8D20099CE66 /* Base */,
-				7680A8861925DBD00099CE66 /* zh-Hans */,
-				769BCF41192F278A00F3E92D /* en */,
+				76A3B5021B69CE4F00516C6B /* zh-Hans */,
 			);
 			name = PXContentMailServiceView.xib;
 			path = ..;
@@ -610,8 +594,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7680A87E1925D8FC0099CE66 /* Base */,
-				7680A8851925DA620099CE66 /* zh-Hans */,
-				769BCF40192F277A00F3E92D /* en */,
+				76A3B5011B69CE3D00516C6B /* zh-Hans */,
 			);
 			name = PXContentTrackPackageView.xib;
 			sourceTree = "<group>";
@@ -620,8 +603,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7680A8881925DC500099CE66 /* Base */,
-				7680A88C1925DC850099CE66 /* zh-Hans */,
-				769BCF44192F279A00F3E92D /* en */,
+				76A3B5031B69CE5700516C6B /* zh-Hans */,
 			);
 			name = PXContentServiceLinksView.xib;
 			sourceTree = "<group>";
@@ -630,8 +612,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7680A88E1925DCA80099CE66 /* Base */,
-				7680A8921925DD3E0099CE66 /* zh-Hans */,
-				769BCF47192F27A600F3E92D /* en */,
+				76A3B5061B69CE9500516C6B /* zh-Hans */,
 			);
 			name = PXContentAboutView.xib;
 			sourceTree = "<group>";
@@ -718,7 +699,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PXPackage/PXPackage-Prefix.pch";
 				INFOPLIST_FILE = "PXPackage/PXPackage-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -733,7 +714,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PXPackage/PXPackage-Prefix.pch";
 				INFOPLIST_FILE = "PXPackage/PXPackage-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
