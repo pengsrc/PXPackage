@@ -2,6 +2,8 @@ PXPackage
 =========
 A Mac OS X Cocoa Application to Track Mail Express Services.
 
+`WARNING: THIS PROJECT IS NO LONGER MAINTAINED.`
+
 Version 1.0
 -----------
 ![screenshot](Screenshots/PXPackage_V1.0_Build257-1.png)
