@@ -290,7 +290,7 @@
 
     
 	[NSApp beginSheet:[self addSheet]
-	   modalForWindow:self.parentViewController
+	   modalForWindow:(NSWindow*)self.parentViewController
 		modalDelegate:nil
 	   didEndSelector:nil
 		  contextInfo:nil];
